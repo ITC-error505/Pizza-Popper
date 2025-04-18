@@ -69,6 +69,7 @@ public class ObjectMovementScript : MonoBehaviour
 
     private void OffScreenDetect() {
         UnityEngine.Vector2 screenPosition = main.WorldToScreenPoint(transform.position);
+        print(Screen.width + ", " + Screen.height);
 
         if(screenPosition.x < 0 || screenPosition.y > Screen.height || screenPosition.y < 0) {
             Start();

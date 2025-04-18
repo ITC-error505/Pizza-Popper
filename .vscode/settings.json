@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pizza Popper Test.sln"
+    "dotnet.defaultSolution": "Pizza Popper.sln"
 }

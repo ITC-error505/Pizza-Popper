@@ -11,7 +11,8 @@ public class LivesCountdownScript : MonoBehaviour
     [SerializeField]
     private int lives = 3;
 
-    private SpriteRenderer sprite;
+    // private SpriteRenderer sprite;
+    private RectTransform image;
     private UnityEngine.Vector3 point;
 
     public UnityEvent dead;
@@ -20,7 +21,8 @@ public class LivesCountdownScript : MonoBehaviour
     public GameObject stopAsteroids;
     
     private void Awake() {
-        sprite = GetComponent<SpriteRenderer>();
+        // sprite = GetComponent<SpriteRenderer>();
+        image = transform as RectTransform;
 
         AdjustImageWidth();
     }
@@ -36,7 +38,8 @@ public class LivesCountdownScript : MonoBehaviour
     }
 
     private void AdjustImageWidth() {
-        sprite.size = new Vector2(imageWidth * lives, 0.12f);
+        // sprite.size
+        image.sizeDelta = new Vector2(imageWidth * lives, 80);
     }
 
     public void AddLife(int num) {
