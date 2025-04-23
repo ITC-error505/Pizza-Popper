@@ -19,8 +19,7 @@ public class GameoverScreenScript : MonoBehaviour
     }
 
     public void RestartButton() {
-        SceneManager.LoadScene("Game");
-
         Time.timeScale = 1f;
+        SceneManager.LoadScene("Game");
     }
 }
