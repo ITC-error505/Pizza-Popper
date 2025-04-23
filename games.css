@@ -4,12 +4,16 @@ body {
     border: 0; 
     margin: 0; 
     background-color: #281A34; 
+    display: grid;
+    align-items: center;
+    justify-content:center;
+
     /*background: url(BuildFolder/pizzaBackground.png);*/
 }
 
 #unity-canvas {
-    max-width: calc(100vw - 35px); 
-    max-height: calc(100vh - 6rem);
+    width: calc(100vw - 25px*2); 
+    height: calc(100vw - 25px*2);
     background: #281A34; 
     border: 5px solid #FF3B7F; 
     border-radius: 20px; 
