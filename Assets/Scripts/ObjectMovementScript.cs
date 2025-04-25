@@ -14,6 +14,8 @@ public class ObjectMovementScript : MonoBehaviour
     
     [SerializeField]
     private bool isChance; //true for chanced spawnings
+    [SerializeField]
+    private int chance; //true for chanced spawnings
     
     [SerializeField]
     private float increment;

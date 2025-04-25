@@ -13,6 +13,8 @@ public class GameoverScreenScript : MonoBehaviour
     private TextMeshProUGUI scoreText;
     [SerializeField]
     private GameObject pauseButton;
+    [SerializeField]
+    private AudioMuffleScript audioMuffle;
 
     private string uri = "https://backend-aqzm.onrender.com/score/post";
    
@@ -20,6 +22,7 @@ public class GameoverScreenScript : MonoBehaviour
 
         gameObject.SetActive(true);
         pauseButton.SetActive(false);
+        audioMuffle.OnGamePause();
         
         scoreText.text = "Score: " + score;
         
@@ -39,12 +42,13 @@ public class GameoverScreenScript : MonoBehaviour
         token = Marshal.PtrToStringUTF8(ptr);
         #endif
 
-        StartCoroutine(PostScoreToEndpoint(uri, 10, 3, token));
+        StartCoroutine(PostScoreToEndpoint(uri, scoreInt, 3, token));
 
     }
 
     public void RestartButton() {
         Time.timeScale = 1f;
+        audioMuffle.OnGameUnpause();
         SceneManager.LoadScene("Game");
     }
 
