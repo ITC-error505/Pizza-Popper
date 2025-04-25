@@ -20,6 +20,9 @@ public class ObjectMovementScript : MonoBehaviour
     [SerializeField]
     private float increment;
 
+    [SerializeField]
+    private GameObject pizza;
+
     private UnityEngine.Vector3 moveDirection;
     private Camera main;
 
@@ -42,7 +45,7 @@ public class ObjectMovementScript : MonoBehaviour
             randomAngle = Random.Range(-0.5f-temp, 0.5f);
         }
 
-        UnityEngine.Vector3 startingPoint = new UnityEngine.Vector3(7f, randomY, 0f); //spawn point
+        UnityEngine.Vector3 startingPoint = new UnityEngine.Vector3(8f, randomY, 0f); //spawn point
         transform.position = startingPoint;
 
         moveDirection.Set(-0.5f, randomAngle, 0f);
@@ -55,10 +58,11 @@ public class ObjectMovementScript : MonoBehaviour
         if(isChance) {
             if(diceRoll != 1) {
                 StartCoroutine(wait());
-                diceRoll = Random.Range(1, 1000);
+                diceRoll = Random.Range(1, chance);
             }
 
             if(diceRoll == 1) {
+                pizza.SetActive(true);
                 transform.Translate(moveDirection * moveSpeed * Time.deltaTime); //moves the sprite accordingly 
             }
         }
@@ -80,6 +84,7 @@ public class ObjectMovementScript : MonoBehaviour
 
             if(isChance) {
                 diceRoll = 0;
+                pizza.SetActive(false);
             }
         }
     }

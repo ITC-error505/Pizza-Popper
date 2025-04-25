@@ -13,12 +13,12 @@ public class AudioMuffleScript : MonoBehaviour
     }
 
     public void OnGamePause() {
-        filter.cutoffFrequency = 420f; 
-        source.volume = 0.366f;
+        // filter.cutoffFrequency = 420f; 
+        source.volume = 0.1f;
     }
 
     public void OnGameUnpause() {
-        filter.cutoffFrequency = 12000f; 
+        // filter.cutoffFrequency = 12000f; 
         source.volume = 0.724f;
     }
 }

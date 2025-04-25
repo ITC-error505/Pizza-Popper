@@ -224,7 +224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &70256178
 Transform:
   m_ObjectHideFlags: 0
@@ -554,6 +554,7 @@ MonoBehaviour:
   isChance: 1
   chance: 0
   increment: 0.5
+  pizza: {fileID: 922195518}
   loseOneHp:
     m_PersistentCalls:
       m_Calls:
@@ -793,7 +794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &275695608
 Transform:
   m_ObjectHideFlags: 0
@@ -803,7 +804,7 @@ Transform:
   m_GameObject: {fileID: 275695607}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.42, y: -3.44, z: 0}
+  m_LocalPosition: {x: -1.77, y: -4.43, z: 0}
   m_LocalScale: {x: 14.38, y: 14.38, z: 14.38}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1859,6 +1860,7 @@ MonoBehaviour:
   isChance: 1
   chance: 5000
   increment: 0.5
+  pizza: {fileID: 275695607}
   loseOneHp:
     m_PersistentCalls:
       m_Calls:
@@ -2153,7 +2155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &909175374
 Transform:
   m_ObjectHideFlags: 0
@@ -2163,7 +2165,7 @@ Transform:
   m_GameObject: {fileID: 909175373}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.85, y: 3.33, z: 0}
+  m_LocalPosition: {x: -1.77, y: 3.33, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2347,6 +2349,7 @@ MonoBehaviour:
   isChance: 1
   chance: 1000
   increment: 0.5
+  pizza: {fileID: 70256177}
   loseOneHp:
     m_PersistentCalls:
       m_Calls:
@@ -2453,7 +2456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &922195519
 Transform:
   m_ObjectHideFlags: 0
@@ -3924,6 +3927,7 @@ MonoBehaviour:
   isChance: 0
   chance: 0
   increment: 0.5
+  pizza: {fileID: 1879495105}
   loseOneHp:
     m_PersistentCalls:
       m_Calls:
@@ -5261,6 +5265,7 @@ MonoBehaviour:
   isChance: 1
   chance: 10000
   increment: 0.5
+  pizza: {fileID: 909175373}
   loseOneHp:
     m_PersistentCalls:
       m_Calls:

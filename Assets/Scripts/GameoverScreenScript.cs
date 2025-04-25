@@ -43,7 +43,6 @@ public class GameoverScreenScript : MonoBehaviour
         #endif
 
         StartCoroutine(PostScoreToEndpoint(uri, scoreInt, 3, token));
-
     }
 
     public void RestartButton() {

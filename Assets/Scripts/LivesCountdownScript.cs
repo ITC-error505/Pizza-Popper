@@ -55,6 +55,6 @@ public class LivesCountdownScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        NumOfLives();
+        // NumOfLives();
     }
 }
