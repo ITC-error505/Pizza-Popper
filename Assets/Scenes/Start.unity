@@ -405,6 +405,7 @@ GameObject:
   - component: {fileID: 404121575}
   - component: {fileID: 404121574}
   - component: {fileID: 404121573}
+  - component: {fileID: 404121576}
   m_Layer: 5
   m_Name: Home Button
   m_TagString: Untagged
@@ -476,7 +477,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 404121574}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 404121576}
+        m_TargetAssemblyTypeName: URLButtonScript, Assembly-CSharp
+        m_MethodName: Open
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &404121574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,6 +528,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404121571}
   m_CullTransparentMesh: 1
+--- !u!114 &404121576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404121571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de3d6a4108de2247ae59cf99b72fef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://itc-error505.github.io/frontend/index.html
 --- !u!1 &486247117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1465,7 @@ GameObject:
   - component: {fileID: 2084686904}
   - component: {fileID: 2084686903}
   - component: {fileID: 2084686902}
+  - component: {fileID: 2084686905}
   m_Layer: 5
   m_Name: Leaderboard Button
   m_TagString: Untagged
@@ -1510,7 +1537,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2084686903}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2084686905}
+        m_TargetAssemblyTypeName: URLButtonScript, Assembly-CSharp
+        m_MethodName: Open
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2084686903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1549,6 +1588,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084686900}
   m_CullTransparentMesh: 1
+--- !u!114 &2084686905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084686900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de3d6a4108de2247ae59cf99b72fef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://itc-error505.github.io/frontend/GlobalBoard.html
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
