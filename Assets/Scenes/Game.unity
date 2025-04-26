@@ -425,7 +425,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Restart
+  m_text: Quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4a3f37c3468434d4bb9a4c1548b26ecf, type: 2}
   m_sharedMaterial: {fileID: -5435900063509389142, guid: 4a3f37c3468434d4bb9a4c1548b26ecf, type: 2}
@@ -576,11 +576,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1375882532}
         m_TargetAssemblyTypeName: ScoreScript, Assembly-CSharp
         m_MethodName: IncrementScore
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 217400661}
   - component: {fileID: 217400660}
   m_Layer: 5
-  m_Name: Restart Button
+  m_Name: Quit Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -728,7 +728,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1996050669}
         m_TargetAssemblyTypeName: PauseMenuScript, Assembly-CSharp
-        m_MethodName: RestartButton
+        m_MethodName: QuitButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1882,11 +1882,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1375882532}
         m_TargetAssemblyTypeName: ScoreScript, Assembly-CSharp
         m_MethodName: IncrementScore
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2371,11 +2371,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1375882532}
         m_TargetAssemblyTypeName: ScoreScript, Assembly-CSharp
         m_MethodName: IncrementScore
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3949,11 +3949,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1375882532}
         m_TargetAssemblyTypeName: ScoreScript, Assembly-CSharp
         m_MethodName: IncrementScore
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5287,11 +5287,11 @@ MonoBehaviour:
       - m_Target: {fileID: 1375882532}
         m_TargetAssemblyTypeName: ScoreScript, Assembly-CSharp
         m_MethodName: IncrementScore
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

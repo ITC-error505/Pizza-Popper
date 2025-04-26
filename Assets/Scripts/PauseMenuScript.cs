@@ -26,10 +26,10 @@ public class PauseMenuScript : MonoBehaviour
         audioMuffle.OnGameUnpause();
     }
 
-    public void RestartButton() {
-        SceneManager.LoadScene("Game");
-        pauseMenu.SetActive(false);
-        pauseButton.SetActive(true);
+    public void QuitButton() {
+        SceneManager.LoadScene("Start");
+        // pauseMenu.SetActive(false);
+        // pauseButton.SetActive(true);
         Time.timeScale = 1f;
         audioMuffle.OnGameUnpause();
     }
