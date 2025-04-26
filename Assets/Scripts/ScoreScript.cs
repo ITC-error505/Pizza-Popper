@@ -11,8 +11,8 @@ public class ScoreScript : MonoBehaviour
         score = 0;
         scoreText.text = score.ToString();
     }
-    public void IncrementScore() {
-        score++;
+    public void IncrementScore(int value) {
+        score+=value;
         scoreText.text = score.ToString();
     }
 }
