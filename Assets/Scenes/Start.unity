@@ -540,7 +540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6de3d6a4108de2247ae59cf99b72fef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://itc-error505.github.io/frontend/index.html
+  url: https://itc-error505.github.io/frontend/Games.html
 --- !u!1 &486247117
 GameObject:
   m_ObjectHideFlags: 0
